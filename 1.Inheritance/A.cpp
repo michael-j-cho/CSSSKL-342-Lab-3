@@ -14,11 +14,12 @@ using namespace std;
 
 A::A()
 {
+    testData2 = 10;
     n = "unnamed A";
     cout << "Inside A::A() for object " << n << endl;
 }
 
-A::A(string name) : n(name)
+A::A(string name, int num) : n(name), testData2(num)
 {
     cout << "Inside A::A(string) for object " << n << endl;
 }

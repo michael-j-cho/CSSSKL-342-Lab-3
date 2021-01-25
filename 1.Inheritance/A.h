@@ -17,7 +17,7 @@ class A
 {
 public:
     A();
-    A(string name);
+    A(string name, int num);
 	~A();
     
     void setN(const char* s);
@@ -25,6 +25,7 @@ public:
     
 private:
     string n;
+    int testData2;
 };
 
 #endif

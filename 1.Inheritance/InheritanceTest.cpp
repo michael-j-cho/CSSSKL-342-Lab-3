@@ -26,11 +26,11 @@ int main (int argc, char * const argv[]) {
         C c1;
         
         cout << endl << "Creating a named A." << endl;
-		A a2("a2");
+		A a2("a2",3);
         cout << endl << "Creating a named B." << endl;
-		B b2("b2");
+		B b2("b2", 9);
         cout << endl << "Creating a named C." << endl;
-		C c2("c2");
+		C c2("c2", 3.3);
 
         cout << endl;
     }

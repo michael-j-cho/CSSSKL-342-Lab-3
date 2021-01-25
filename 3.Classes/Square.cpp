@@ -22,3 +22,8 @@ Square& Square::operator = (const Square& other)
 	theSize = other.getSize();
 	return *this;
 }
+
+bool Square::operator < (const Square& other)
+{
+   return this->getSize() < other.getSize();
+}

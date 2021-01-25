@@ -40,8 +40,10 @@ int main()
   cout << "Exiting bottom block" << endl << endl;
 
   int i = var2.theValue();
+  var2.theValue() = 5;
 
   SuperInt* pvar = new SuperInt(3, "dynamic");
 
   cout << "At end of main()" << endl;
+
 }

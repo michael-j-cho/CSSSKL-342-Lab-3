@@ -12,6 +12,7 @@ public:
    void setSize(int newSize);
    int getSize(void) const;
    Square& operator = (const Square&);
+   bool operator < (const Square&);
 
 private:
    int theSize;

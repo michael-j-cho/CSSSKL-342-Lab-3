@@ -18,7 +18,7 @@ B::B()
   cout << "Inside B::B() for object " << getN() << endl;
 }
 
-B::B(string name) : A(name)
+B::B(string name, int num) : A(name, num)
 {
   cout << "Inside B::B(string) for object " << getN() << endl;
 }

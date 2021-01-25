@@ -15,11 +15,12 @@ class C : public B
 {
 public:
     C();
-    C(string name);
+    C(string name, double dnum);
 	~C();
     
     
 private:
+    double testDataC;
     
 };
 

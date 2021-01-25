@@ -6,6 +6,7 @@ using namespace std;
 
 int main (int argc, char * const argv[]) {
    SquareContainer c;
+   cerr << "testestest" << (c < e) << endl;
    
    for (int i = 0; i < 20; i++) {
       Square s;
@@ -14,7 +15,7 @@ int main (int argc, char * const argv[]) {
    }
    SquareContainer d(c); // copy
    SquareContainer e = d; // assignment
-
+   
    try {
       for (int i = 0; i < 21; i++) {
          cout << "Square " << i << " size is " 

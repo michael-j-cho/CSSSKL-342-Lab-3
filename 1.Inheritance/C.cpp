@@ -18,7 +18,7 @@ C::C()
   cout << "Inside C::C() for object " << getN() << endl;
 }
 
-C::C(string name) : B(name)
+C::C(string name, double dnum) : B(name, (int)dnum)
 {
   cout << "Inside C::C(string) for object " << getN() << endl;
 }

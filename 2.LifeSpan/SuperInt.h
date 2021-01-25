@@ -18,7 +18,7 @@ class SuperInt {
 
   // For demonstrating lvalues
   //int& theValue(void);
-  const int& theValue(void);
+  int& theValue(void);
 
  private:
   int myValue;
